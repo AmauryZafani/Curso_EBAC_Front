@@ -1,0 +1,17 @@
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(199,199,226,1) 69%, rgba(193,171,171,1) 100%);
+}
+p{
+    font-size: 13px;
+    color: rgb(103, 103, 103);
+ }
+
+button{
+    padding: 3px;
+    width: 70px;
+}
+
+.container{
+    margin: 18%;
+}
