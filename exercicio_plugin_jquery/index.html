@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>jquery</title>
+</head>
+    <body>
+
+        <div class="caixa__login">
+            <h2>Cadastro</h2>
+            <form>
+                <div class="caixa__login-input">
+                        <input type="text" required />
+                            <label>Nome completo</label>
+                                </div>
+
+                <div class="caixa__login-input">
+                    <input type="text" required />
+                        <label>Email</label>
+                            </div>
+
+                <div class="caixa__login-input">
+                    <input id="TELEFONE" type="text" required />
+                        <label>Telefone</label>
+                            </div>
+
+                <div class="caixa__login-input">
+                    <input id="CPF" type="text" required />
+                        <label>CPF</label>
+                            </div>
+
+                <div class="caixa__login-input">
+                    <input type="password" required />
+                        <label>Endereço</label>
+                            </div>
+
+                <div class="caixa__login-input">
+                    <input id="CEP" type="text" required />
+                        <label>CEP</label>
+                            </div>
+
+                <a>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Enviar
+                </a>
+            </form>
+        </div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		    <script src="jquery.mask.js"></script>
+		        <script type="text/javascript">
+                    $(document).ready(function(){
+                $('#CEP').mask("00.000-000");
+                $('#CPF').mask("000.000.000-00");
+                $('#TELEFONE').mask("(00)00000-0000");
+            });
+        </script>
+
+    </body>
+</html>
